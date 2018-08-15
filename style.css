@@ -1,0 +1,38 @@
+body{
+ margin: 0;
+ font-family: 'Montserrat', sans-serif;
+ display: flex;
+ overflow: hidden;
+}
+header{
+    padding: 0 10px;
+    color: white;
+    background-image: url(img/background.png);
+   
+    border-top: 6px solid #2ecc71;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;  
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    padding: 0 6px;
+    font-size: 2rem;
+
+}
+span{
+    color: #2ecc71;
+}
+.mao{
+    height: 460px;
+    
+}
+
+@media (max-width: 992px){
+    header{
+    
+
+    }
+}
